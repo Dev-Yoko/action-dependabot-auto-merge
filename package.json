@@ -1,0 +1,29 @@
+{
+  "name": "action-dependabot-auto-merge",
+  "version": "1.0.0",
+  "description": "Automatically merge Dependabot PRs when version comparison is within range",
+  "main": "action.yml",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Yoko/action-dependabot-auto-merge.git"
+  },
+  "keywords": [
+    "github-action",
+    "dependabot",
+    "auto-merge",
+    "automation",
+    "continuous-integration"
+  ],
+  "author": "Dev-Yoko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-Yoko/action-dependabot-auto-merge/issues"
+  },
+  "homepage": "https://github.com/Dev-Yoko/action-dependabot-auto-merge#readme"
+}
