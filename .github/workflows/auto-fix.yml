@@ -1,8 +1,10 @@
 name: Code Fixer
 
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches:
+      - master
+  workflow_dispatch:
 
 jobs:
   lint:
@@ -39,4 +41,3 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.TOKEN }}
-        branch: ${{ github.head_ref }}
